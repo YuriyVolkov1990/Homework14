@@ -16,8 +16,9 @@ public class Main {
 
     public static void main(String[] args) {
         Person person = new Person("Lyapis", "Trubetskoy");
+        System.out.println("person before changePerson = " + person);
         person.changePerson(person);
-        System.out.println("person = " + person);
+        System.out.println("person after changePerson = " + person);
 //        Integer value = 33;
 //        System.out.println("value до метода = " + value);
 //        changeValue(value);
