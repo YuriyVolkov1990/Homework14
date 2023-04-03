@@ -1,5 +1,5 @@
 public class Main {
-    public static void changeValue (Integer value) {
+//    public static void changeValue (Integer value) {
         //        value[0] = 99;
 //        value = new int[]{1, 2};
 //        System.out.println("Массив в методе");
@@ -12,9 +12,12 @@ public class Main {
 //        System.out.println("value в методе = " + value);
 //        value = 22;
 //        System.out.println("value in changeValue = " + value);
-    }
+
 
     public static void main(String[] args) {
+        Person person = new Person("Lyapis", "Trubetskoy");
+        person.changePerson(person);
+        System.out.println("person = " + person);
 //        Integer value = 33;
 //        System.out.println("value до метода = " + value);
 //        changeValue(value);
